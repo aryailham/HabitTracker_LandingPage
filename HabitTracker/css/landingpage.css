@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-li, a, button, p, h2{
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+html{
+    scroll-behavior: smooth;
 }
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+li, a, button, p, h2{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 .jumbotron{
@@ -24,7 +28,7 @@ body{
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.507);
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 .jumbotron_inner{
@@ -64,14 +68,8 @@ body{
 
 .habittracker_info{
     min-height: 700px;
-    padding: 0 10%;
+    padding: 8% 10%;
     justify-content: center;
-}
-
-.habittracker_info h2{
-    color: #353535;
-    font-size: xx-large;
-    text-align: center;
 }
 
 .habittracker_reason{
@@ -101,4 +99,53 @@ body{
 hr{
     width: 50%;
     margin: 0 auto;
+}
+
+.contact_us{
+    min-height: 700px;
+    padding: 7% 10%;
+    justify-content: center;
+}
+
+.section_title{
+    color: #353535;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.form_section{
+    text-align: center;
+    /* margin: 100px 100px; */
+}
+
+.form_section div{
+    margin: 50px 50px;
+}
+
+.form_section input{
+    border-radius: 5px;
+    border: 2px solid rgba(0,136,169,1);
+} 
+
+.email_input{
+    height: 30px;
+    width: 500px;
+}
+
+.message_input{
+    height: 200px;
+    width: 500px;
+    resize: none;
+    overflow: auto;
+    outline: none;
+    border: 2px solid rgba(0,136,169,1);
+}
+
+
+
+
+
+footer{
+    min-height: 500px;
+    background-color: #353535;
 }

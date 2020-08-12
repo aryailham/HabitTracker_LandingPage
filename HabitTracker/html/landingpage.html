@@ -14,16 +14,15 @@
             <nav>
                 <ul class="nav_links">
                     <li><a class="active" href="#home">Home</a></li>
-                    <li><a href="#contactUs">Contact Us</a></li>
-                    <!-- <li><a href="#howToJoin">How To Join</a></li> -->
-                    <li><a href="#howToJoin"><button>How To Join</button></a></li>
+                    <li><a href="#why_habittracker">Why HabitTracker?</a></li>
+                    <li><a href="#contact_us"><button>Contact Us</button></a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
     <main>
-        <div class="jumbotron">
+        <div class="jumbotron" id="home">
             <div class="jumbotron_inner">
                 <h2>HabitTracker</h2>
                 <p>Tools to help you track your activity</p>
@@ -34,9 +33,9 @@
             </div>
         </div>
 
-        <div class="habittracker_info">
+        <div class="habittracker_info" id="why_habittracker">
             <div>
-                <h2>Why HabitTracker?</h2>
+                <h2 class="section_title">Why HabitTracker?</h2>
             </div>
             <hr>
             <div class="habittracker_reason">
@@ -48,13 +47,13 @@
                     <img src="../image/Icons/landingpage_1.jpg" width="320px" height="320px" alt="icon1">
                 </div>
             </div>
-            <div class="habittracker_reason">
-                <div>
-                    <img src="../image/Icons/landingpage_2.jpg" width="320px" height="320px" alt="icon2">
-                </div>
+            <!-- <div class="habittracker_reason">
                 <div>
                     <h2>We Will Help You to Organize Your Activity</h2>
                     <p class="txt_on_white">With HabitTracker, you can manage your activity easily. you can track ectivity that you have or haven't done, HabitTracker with help you to track your daily activites</p>
+                </div>
+                <div>
+                    <img src="../image/Icons/landingpage_2.jpg" width="320px" height="320px" alt="icon2">
                 </div>
             </div>
             <div class="habittracker_reason">
@@ -65,9 +64,28 @@
                 <div>
                     <img src="../image/Icons/landingpage_3.jpg" width="320px" height="320px" alt="icon3">
                 </div>
-            </div>
+            </div> -->
         </div>
 
+        <div class="contact_us" id="contact_us">
+            <div>
+                <h2 class="section_title">Contact Us</h2>
+            </div>
+            <hr>
+            <div class="form_section">
+                <form action="#action" id="form_contact_us" method="post">
+                    <div>
+                        <input type="text" placeholder="Email" class="email_input">
+                    </div>
+                    <div>
+                        <textarea class="message_input" name="message_text" id="message_input" cols="30" rows="10" placeholder="message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" form="form_contact_us">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
 
     <footer>
