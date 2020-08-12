@@ -68,12 +68,13 @@ li, a, button, p, h2{
 
 .habittracker_info{
     min-height: 700px;
-    padding: 8% 10%;
+    padding: 7% 10%;
     justify-content: center;
 }
 
 .habittracker_reason{
-    margin: 100px 0;
+    /* margin: 100px 0; */
+    margin: 0 0;
     display: flex;
 }
 
@@ -85,9 +86,8 @@ li, a, button, p, h2{
 }
 
 .habittracker_reason div{
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
-    /* margin: 0 0; */
     flex: 1 1 0px;
 }
 
@@ -105,6 +105,7 @@ hr{
     min-height: 700px;
     padding: 7% 10%;
     justify-content: center;
+    background-color: aqua;
 }
 
 .section_title{
@@ -141,11 +142,15 @@ hr{
     border: 2px solid rgba(0,136,169,1);
 }
 
-
-
-
-
 footer{
     min-height: 500px;
     background-color: #353535;
 }
+
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    padding: 8% 0;
+  }
