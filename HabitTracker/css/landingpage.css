@@ -88,7 +88,16 @@ li, a, button, p, h2{
 .habittracker_reason div{
     /* align-items: center; */
     text-align: center;
+    margin: 10px 100px;
     flex: 1 1 0px;
+}
+
+.habittracker_reason div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 320px;
 }
 
 .txt_on_white{
@@ -154,3 +163,10 @@ footer{
     border: 0;
     padding: 8% 0;
   }
+
+@media only screen and (max-width: 900px){
+    .habittracker_reason div{
+        flex: auto;
+        width: 100%;
+    }
+}
