@@ -3,8 +3,8 @@ $(document).ready(function(){
         mode: 'horizontal',
         pager: false,
         responsive: true,
-        auto: true,
+        auto: false,
         infiniteLoop : false,
-        hideControlOnEnd : true,
+        hideControlOnEnd : true
     });
 });
