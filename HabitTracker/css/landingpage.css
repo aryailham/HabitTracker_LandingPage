@@ -70,6 +70,7 @@ li, a, button, p, h2{
     min-height: 700px;
     padding: 7% 10%;
     justify-content: center;
+    z-index: -1;
 }
 
 .habittracker_reason{
