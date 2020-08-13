@@ -1,4 +1,8 @@
 $(window).on('load', function(){
     $(".loader-wrapper").fadeOut("slow");
-    window.scrollTo(0,0);
+
+    window.onscroll = function(){
+        window.scrollTo(0,0);
+    }
+    
 });
