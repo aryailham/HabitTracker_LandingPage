@@ -181,6 +181,12 @@ footer{
     background-color: #353535;
 }
 
+@media only screen and (max-width: 1080px){
+    .contact_us, .jumbotron{
+        background-attachment: scroll;
+    }
+}
+
 @media only screen and (max-width: 900px){
     .habittracker_reason div{
         flex: auto;
