@@ -154,12 +154,12 @@ hr{
 
 .email_input{
     height: 30px;
-    width: 500px;
+    width: 100%;
 }
 
 .message_input{
     height: 200px;
-    width: 500px;
+    width: 100%;
     resize: none;
     overflow: auto;
     outline: none;
