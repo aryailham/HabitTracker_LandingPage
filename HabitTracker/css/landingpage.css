@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-html, body{
+html,
+body {
     /* height: 100%; */
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-li, a, button, p, h2{
+li,
+a,
+button,
+p,
+h2 {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -19,7 +23,7 @@ li, a, button, p, h2{
     font-family: "Montserrat", sans-serif;
 }
 
-.jumbotron{
+.jumbotron {
     /* height: 900px; */
     display: flex;
     align-items: center;
@@ -34,27 +38,27 @@ li, a, button, p, h2{
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.507);
 }
 
-.jumbotron_inner{
+.jumbotron_inner {
     width: 70%;
     /* display: none; animasi reveal saat scroll */
 }
 
-.jumbotron_inner h2{
+.jumbotron_inner h2 {
     font-size: 35px;
     font-weight: 700;
 }
 
-.jumbotron_inner p{
+.jumbotron_inner p {
     font-size: 20px;
     font-weight: 500;
 }
 
-.jumbotron_btn{
+.jumbotron_btn {
     display: flex;
     justify-content: center;
 }
 
-.jumbotron_btn .btn_one{
+.jumbotron_btn .btn_one {
     padding: 8px 14px;
     border-radius: 5px;
     background: #fff;
@@ -62,42 +66,42 @@ li, a, button, p, h2{
     margin-right: 10px;
 }
 
-.jumbotron_btn .btn_two{
+.jumbotron_btn .btn_two {
     padding: 8px 14px;
     border-radius: 5px;
     color: #fff;
     margin-right: 10px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgba(0, 136, 169, 1);
 }
 
-.habittracker_info{
+.habittracker_info {
     min-height: 700px;
     padding: 7% 10%;
     justify-content: center;
     z-index: -1;
 }
 
-.habittracker_reason{
+.habittracker_reason {
     /* margin: 100px 0; */
     margin: 0 0;
     display: flex;
 }
 
-.habittracker_reason h2{
+.habittracker_reason h2 {
     color: #353535;
     font-size: x-large;
     text-align: center;
     margin-top: 15%;
 }
 
-.habittracker_reason div{
+.habittracker_reason div {
     /* align-items: center; */
     text-align: center;
     margin: 10px 100px;
     flex: 1 1 0px;
 }
 
-.habittracker_reason div img{
+.habittracker_reason div img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -105,17 +109,17 @@ li, a, button, p, h2{
     height: 320px;
 }
 
-.txt_on_white{
+.txt_on_white {
     color: #353535;
     /* text-align: center; */
 }
 
-hr{
+hr {
     width: 50%;
     margin: 0 auto;
 }
 
-.contact_us{
+.contact_us {
     min-height: 700px;
     padding: 7.5% 10%;
     justify-content: center;
@@ -127,45 +131,44 @@ hr{
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.507);
 }
 
-.contact_us h2, hr{
+.contact_us h2,
+hr {
     color: #edf0f1;
 }
 
-
-.section_title{
+.section_title {
     color: #353535;
     font-size: xx-large;
     text-align: center;
 }
 
-.form_section{
+.form_section {
     text-align: center;
     /* margin: 100px 100px; */
 }
 
-.form_section div{
+.form_section div {
     margin: 50px 50px;
 }
 
-.form_section input{
+.form_section input {
     border-radius: 5px;
-    border: 2px solid rgba(0,136,169,1);
-} 
-
-.email_input{
-    height: 30px;
-    width: 100%;
+    border: 2px solid rgba(0, 136, 169, 1);
 }
 
-.message_input{
+.email_input {
+    height: 30px;
+    width: 50%;
+}
+
+.message_input {
     height: 200px;
-    width: 100%;
+    width: 50%;
     resize: none;
     overflow: auto;
     outline: none;
-    border: 2px solid rgba(0,136,169,1);
+    border: 2px solid rgba(0, 136, 169, 1);
 }
-
 
 .bx-wrapper {
     -moz-box-shadow: none;
@@ -176,19 +179,20 @@ hr{
     z-index: 1;
 }
 
-footer{
+footer {
     min-height: 300px;
     background-color: #353535;
 }
 
-@media only screen and (max-width: 1080px){
-    .contact_us, .jumbotron{
+@media only screen and (max-width: 1080px) {
+    .contact_us,
+    .jumbotron {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (max-width: 900px){
-    .habittracker_reason div{
+@media only screen and (max-width: 900px) {
+    .habittracker_reason div {
         flex: auto;
         width: 100%;
     }
