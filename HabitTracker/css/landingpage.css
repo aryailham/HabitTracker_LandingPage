@@ -215,9 +215,28 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .habittracker_reason div {
-        flex: auto;
+@media only screen and (max-width: 600px) {
+    .form_section div {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .email_input,
+    .message_input {
         width: 100%;
     }
+    /* .habittracker_reason div img {
+        display: none;
+    } */
+    /* .habittracker_reason {
+        text-align: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }*/
+    /* .habittracker_reason div {
+        flex: auto;
+        text-align: center;
+        margin: 0;
+    } */
 }
