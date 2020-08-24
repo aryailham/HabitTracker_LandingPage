@@ -96,15 +96,15 @@
             </div>
             <hr data-aos="fade-up">
             <div class="form_section">
-                <form action="#action" id="form_contact_us" method="post">
+                <form action="sendemail.php" id="form_contact_us" method="post">
                     <div data-aos="fade-up">
-                        <input type="text" placeholder="Email" class="email_input">
+                        <input type="text" name="email" placeholder="Email" class="email_input">
                     </div>
                     <div data-aos="fade-up">
-                        <textarea class="message_input" name="message_text" id="message_input" cols="30" rows="10" placeholder="message"></textarea>
+                        <textarea class="message_input" name="message" id="message_input" cols="30" rows="10" placeholder="message"></textarea>
                     </div>
                     <div>
-                        <button type="submit" form="form_contact_us">Submit</button>
+                        <button type="submit" name="submit">Submit</button>
                     </div>
                 </form>
             </div>
