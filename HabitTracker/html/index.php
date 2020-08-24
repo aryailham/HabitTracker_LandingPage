@@ -38,7 +38,7 @@
     </div>
 
     <main>
-        <div class="jumbotron" id="home">
+        <div class="jumbotron">
             <div class="jumbotron_inner">
                 <h2 data-aos="fade-up">Manage Your Life With Ease</h2>
                 <p data-aos="fade-up">#BeOrganized</p>
@@ -49,9 +49,20 @@
             </div>
         </div>
 
-        <!-- <div class="">
-            
-        </div> -->
+        <div class="introduction" id="home">
+            <div>
+                <h2 class="txt_on_white" data-aos="fade-up">We help you to manage your activity</h2>
+            </div>
+            <div class="intro_txt" data-aos="fade-up">
+                <div>
+                    <h2 class="txt_on_white">Welcome to the future!</h2>
+                    <p class="txt_on_white">Make your life easier to manage, anywhere, anytime, with just <b>one</b> click</p>
+                </div>
+                <div>
+                    <img src="../image/Icons/landingpage_1.jpg" alt="gambar" width="320px" height="320px">
+                </div>
+            </div>
+        </div>
 
         <div class="habittracker_info" id="why_habittracker">
             <div data-aos="fade-up">
