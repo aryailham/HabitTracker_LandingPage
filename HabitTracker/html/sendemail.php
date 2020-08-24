@@ -8,6 +8,6 @@
         $txt = "you have received an email from ".$email.".\n\n".$message;
 
         mail($sendTo, "Question", $txt, $header);
-        header("Location: index.php/?mailsend")
+        header("Location: index.php/?mailsend");
     }
 ?>
