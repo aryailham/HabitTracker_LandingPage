@@ -1,5 +1,6 @@
 AOS.init({
-    // offset: 50,
+    offset: 200,
     duration: 1000,
-    once: true
+    once: true,
+    delay: 150
 });
