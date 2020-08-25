@@ -216,6 +216,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    /* responsive contact us section*/
     .form_section div {
         width: 100%;
         margin-left: 0;
@@ -225,18 +226,32 @@ footer {
     .message_input {
         width: 100%;
     }
-    /* .habittracker_reason div img {
-        display: none;
-    } */
-    /* .habittracker_reason {
-        text-align: center;
-        align-content: center;
-        justify-items: center;
-        justify-content: center;
-    }*/
-    /* .habittracker_reason div {
-        flex: auto;
-        text-align: center;
+    /* responsive habittracker reason section */
+    .habittracker_reason {
+        display: block;
+    }
+    .habittracker_reason div {
+        margin: 12%;
+    }
+    .habittracker_reason div img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 160px;
+        height: 160px;
+    }
+    .bx-wrapper {
         margin: 0;
-    } */
+        padding: 0;
+    }
+    .habittracker_reason h2 {
+        color: #353535;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .habittracker_info {
+        margin: 0;
+        padding: 10% 0;
+    }
 }
