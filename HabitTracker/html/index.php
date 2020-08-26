@@ -17,6 +17,7 @@
     <script src="../js/slider.js"></script>
     <script src="../js/loader.js"></script>
     <script src="../js/responsive.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
@@ -29,16 +30,17 @@
     <div class="header_container">
         <header>
             <h3>HabitTracker</h3>
-            <nav class="" id="navbar">
-                <ul class="nav_links">
+            <nav id="navbar">
+                <ul class="nav_links" id="navigationMenu">
                     <li><a class="active" href="#home">Home</a></li>
                     <li><a href="#why_habittracker">Why HabitTracker?</a></li>
                     <li><a href="#contact_us"><button>Contact Us</button></a></li>
                 </ul>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
             </nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
         </header>
     </div>
 

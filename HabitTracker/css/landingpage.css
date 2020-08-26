@@ -97,6 +97,9 @@ h2 {
     text-align: center;
     /* flex: 1 1 0px; */
     margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .habittracker_info {
@@ -221,6 +224,14 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    /* responsive about us section */
+    .intro_txt div {
+        margin: 10px 0;
+    }
+    .intro_txt div img {
+        width: 160px;
+        height: 160px;
+    }
     /* responsive contact us section*/
     .form_section div {
         width: 100%;

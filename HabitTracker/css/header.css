@@ -1,10 +1,3 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #24252A;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 li,
 a,
@@ -28,9 +21,6 @@ header {
     margin: 0;
     padding: 0;
     background-color: #24252A;
-    /* position: sticky;
-    top: 0;
-    z-index: 999999999; */
 }
 
 header h3 {
@@ -62,7 +52,7 @@ nav .icon {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #24252A;
     border: none;
     border-radius: 50px;
     cursor: 0;
@@ -73,25 +63,50 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-@media screen and(max-width: 600px) {
-    nav a.icon {
-        float: right;
-        display: block;
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media screen and (min-width: 600.1px) {
+    button {
+        background-color: rgba(0, 136, 169, 1);
     }
 }
 
-@media screen and(max-width: 600px) {
-    nav.responsive {
-        position: relative;
-    }
-    nav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    nav.responsive li {
-        float: none;
+@media screen and (max-width: 600px) {
+    .checkbtn {
         display: block;
-        text-align: left;
+    }
+    .nav_links {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #24252A;
+        right: -100%;
+        top: 100px;
+        text-align: center;
+        transition: all .5s;
+    }
+    .nav_links li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #navbar {
+        top: 100px;
     }
 }
