@@ -32,3 +32,11 @@ $(document).ready(function() {
         menu.style.right = "-100%";
     });
 });
+
+$(window).scroll(function() {
+    if (('#check:checkbox:checked').length != 0) {
+        $('#check').prop('checked', false);
+        var menu = document.getElementById("navigationMenu")
+        menu.style.right = "-100%";
+    }
+});
