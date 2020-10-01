@@ -1,4 +1,4 @@
 # HabitTracker_LandingPage
-landing page untuk HabitTracker
+Landing page for "HabitTracker" (my upcoming project)
 
-you can see the project in https://habittrackerlandingpage.000webhostapp.com/HabitTracker/html/index.php#why_habittracker
+you can see the project in https://habittrackerlandingpage.000webhostapp.com/
